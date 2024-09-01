@@ -1,48 +1,48 @@
 <h3 align="center"><img width="80" alt="Puter.com, The Personal Cloud Computer: All your files, apps, and games in one place accessible from anywhere at any time." src="https://assets.puter.site/puter-logo.png"></h3>
 
-<h3 align="center">The Internet OS! Free, Open-Source, and Self-Hostable.</h3>
+<h3 align="center">سیستم‌عامل اینترنت! رایگان، متن‌باز و قابل‌میزبانی خودکار.</h3>
 
 <p align="center">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/HeyPuter/puter"> <img alt="GitHub Release" src="https://img.shields.io/github/v/release/HeyPuter/puter?label=latest%20version"> <img alt="GitHub License" src="https://img.shields.io/github/license/HeyPuter/puter">
+    <img alt="اندازه مخزن در GitHub" src="https://img.shields.io/github/repo-size/HeyPuter/puter"> <img alt="آخرین نسخه در GitHub" src="https://img.shields.io/github/v/release/HeyPuter/puter?label=latest%20version"> <img alt="مجوز در GitHub" src="https://img.shields.io/github/license/HeyPuter/puter">
 </p>
 <p align="center">
-    <a href="https://puter.com/"><strong>« LIVE DEMO »</strong></a>
+    <a href="https://puter.com/"><strong>« دموی زنده »</strong></a>
     <br />
     <br />
     <a href="https://puter.com">Puter.com</a>
     ·
     <a href="https://docs.puter.com" target="_blank">SDK</a>
     ·
-    <a href="https://discord.com/invite/PQcx7Teh8u">Discord</a>
+    <a href="https://discord.com/invite/PQcx7Teh8u">دیسکورد</a>
     ·
-    <a href="https://www.youtube.com/@EricsPuterVideos">YouTube</a>
+    <a href="https://www.youtube.com/@EricsPuterVideos">یوتیوب</a>
     ·
-    <a href="https://reddit.com/r/puter">Reddit</a>
+    <a href="https://reddit.com/r/puter">ردیت</a>
     ·
-    <a href="https://twitter.com/HeyPuter">X (Twitter)</a>
+    <a href="https://twitter.com/HeyPuter">X (توییتر)</a>
     ·
     <a href="https://hackerone.com/puter_h1b">Bug Bounty</a>
 </p>
 
-<h3 align="center"><img width="800" style="border-radius:5px;" alt="screenshot" src="https://assets.puter.site/puter.com-screenshot-3.webp"></h3>
+<h3 align="center"><img width="800" style="border-radius:5px;" alt="اسکرین‌شات" src="https://assets.puter.site/puter.com-screenshot-3.webp"></h3>
 
 <br/>
 
-## Puter
+## پتر (Puter)
 
-Puter is an advanced, open-source internet operating system designed to be feature-rich, exceptionally fast, and highly extensible. Puter can be used as:
+پتر یک سیستم‌عامل اینترنتی پیشرفته و متن‌باز است که با هدف ارائه قابلیت‌های فراوان، سرعت بالا و توسعه‌پذیری بالا طراحی شده است. پتر می‌تواند به‌عنوان موارد زیر استفاده شود:
 
-- A privacy-first personal cloud to keep all your files, apps, and games in one secure place, accessible from anywhere at any time.
-- A platform for building and publishing websites, web apps, and games.
-- An alternative to Dropbox, Google Drive, OneDrive, etc. with a fresh interface and powerful features.
-- A remote desktop environment for servers and workstations.
-- A friendly, open-source project and community to learn about web development, cloud computing, distributed systems, and much more!
+یک فضای ابری شخصی با اولویت حفظ حریم خصوصی که تمام فایل‌ها، برنامه‌ها و بازی‌های شما را در یک مکان امن نگهداری می‌کند و از هر نقطه و در هر زمانی قابل دسترسی است.
+یک پلتفرم برای ساخت و انتشار وب‌سایت‌ها، برنامه‌های وب و بازی‌ها.
+جایگزینی برای Dropbox، Google Drive، OneDrive و غیره با یک رابط کاربری جدید و ویژگی‌های قدرتمند.
+یک محیط دسکتاپ از راه دور برای سرورها و ایستگاه‌های کاری.
+یک پروژه متن‌باز و جامعه‌ای دوستانه برای یادگیری توسعه وب، رایانش ابری، سیستم‌های توزیع‌شده و بیشتر!
 
 <br/>
 
-## Getting Started
+## شروع به کار
 
-### 💻 Local Development
+### 💻 توسعه محلی
 
 ```bash
 git clone https://github.com/HeyPuter/puter
@@ -51,21 +51,21 @@ npm install
 npm start
 ```
 
-This will launch Puter at http://puter.localhost:4100 (or the next available port).
+این دستور پتر را در http://puter.localhost:4100 (یا پورت بعدی موجود) راه‌اندازی می‌کند.
 
 <br/>
 
-### 🐳 Docker
+### 🐳 داکر
 
 ```bash
-mkdir puter && cd puter && mkdir -p puter/config puter/data && sudo chown -R 1000:1000 puter && docker run --rm -p 4100:4100 -v `pwd`/puter/config:/etc/puter -v `pwd`/puter/data:/var/puter  ghcr.io/heyputer/puter
+mkdir puter && cd puter && mkdir -p puter/config puter/data && sudo chown -R 1000:1000 puter && docker run --rm -p 4100:4100 -v `pwd`/puter/config:/etc/puter -v `pwd`/puter/data:/var/puter ghcr.io/heyputer/puter
 ```
 
 <br/>
 
 ### 🐙 Docker Compose
 
-#### Linux/macOS
+#### لینوکس/macOS
 
 ```bash
 mkdir -p puter/config puter/data
@@ -76,7 +76,7 @@ docker compose up
 
 <br/>
 
-#### Windows
+#### ویندوز
 
 ```powershell
 mkdir -p puter
@@ -91,65 +91,38 @@ docker compose up
 
 ### ☁️ Puter.com
 
-Puter is available as a hosted service at [**puter.com**](https://puter.com).
+پتر به‌عنوان یک سرویس میزبانی‌شده در [**puter.com**](https://puter.com) در دسترس است.
 
 <br/>
 
-## System Requirements
+## الزامات سیستم
 
-- **Operating Systems:** Linux, macOS, Windows
-- **RAM:** 2GB minimum (4GB recommended)
-- **Disk Space:** 1GB free space
-- **Node.js:** Version 16+ (Version 22+ recommended)
-- **npm:** Latest stable version
+- **سیستم‌عامل‌ها:** لینوکس، macOS، ویندوز
+- **رم:** حداقل ۲ گیگابایت (۴ گیگابایت توصیه می‌شود)
+- **فضای دیسک:** ۱ گیگابایت فضای خالی
+- **Node.js:** نسخه ۱۶+ (نسخه ۲۲+ توصیه می‌شود)
+- **npm:** آخرین نسخه پایدار
 
 <br/>
 
-## Support
+## پشتیبانی
 
-Connect with the maintainers and community through these channels:
+از طریق این کانال‌ها با نگهدارنده‌ها و جامعه در ارتباط باشید:
 
-- Bug report or feature request? Please [open an issue](https://github.com/HeyPuter/puter/issues/new/choose).
-- Discord: [discord.com/invite/PQcx7Teh8u](https://discord.com/invite/PQcx7Teh8u)
-- X (Twitter): [x.com/HeyPuter](https://x.com/HeyPuter)
-- Reddit: [reddit.com/r/puter/](https://www.reddit.com/r/puter/)
+- گزارش باگ یا درخواست ویژگی؟ لطفاً [یک issue باز کنید](https://github.com/HeyPuter/puter/issues/new/choose).
+- دیسکورد: [discord.com/invite/PQcx7Teh8u](https://discord.com/invite/PQcx7Teh8u)
+- ایکس (توییتر): [x.com/HeyPuter](https://x.com/HeyPuter)
+- ردیت: [reddit.com/r/puter/](https://www.reddit.com/r/puter/)
 - Mastodon: [mastodon.social/@puter](https://mastodon.social/@puter)
-- Security issues? [security@puter.com](mailto:security@puter.com)
-- Email maintainers at [hi@puter.com](mailto:hi@puter.com)
+- مسائل امنیتی؟ [security@puter.com](mailto:security@puter.com)
+- به نگهدارنده‌ها ایمیل بزنید: [hi@puter.com](mailto:hi@puter.com)
 
-We are always happy to help you with any questions you may have. Don't hesitate to ask!
-
-<br/>
-
-## License
-
-This repository, including all its contents, sub-projects, modules, and components, is licensed under [AGPL-3.0](https://github.com/HeyPuter/puter/blob/main/LICENSE.txt) unless explicitly stated otherwise. Third-party libraries included in this repository may be subject to their own licenses.
+ما همیشه خوشحال می‌شویم که به سوالات شما پاسخ دهیم. از پرسیدن دریغ نکنید!
 
 <br/>
 
-## Translations
+## مجوز
 
-- [Farsi / فارسی](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.fa.md)
-- [Arabic / العربية](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.ar.md)
-- [Bengali / বাংলা](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.bn.md)
-- [Chinese / 中文](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.zh.md)
-- [Danish / Dansk](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.da.md)
-- [English](https://github.com/HeyPuter/puter/blob/main/README.md)
-- [Finnish / Suomi](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.fi.md)
-- [French / Français](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.fr.md)
-- [Hebrew/ עברית](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.he.md)
-- [Hindi / हिंदी](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.hi.md)
-- [Indonesian / Bahasa Indonesia](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.id.md)
-- [Italian / Italiano](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.it.md)
-- [Japanese / 日本語](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.jp.md)
-- [Korean / 한국어](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.ko.md)
-- [Polish / Polski](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.pl.md)
-- [Portuguese / Português](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.pt.md)
-- [Romanian / Română](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.ro.md)
-- [Russian / Русский](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.ru.md)
-- [Spanish / Español](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.es.md)
-- [Tamil / தமிழ்](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.ta.md)
-- [Thai / ไทย](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.th.md)
-- [Turkish / Türkçe](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.tr.md)
-- [Urdu / اردو](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.ur.md)
-- [Vietnamese / Tiếng Việt](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.vi.md)
+این مخزن، شامل تمامی محتویات، زیرپروژه‌ها، ماژول‌ها و اجزاء آن، تحت [AGPL-3.0](https://github.com/HeyPuter/puter/blob/main/LICENSE.txt) مجوز دارد مگر به طور صریح خلاف آن ذکر شده باشد. کتابخانه‌های شخص ثالث موجود در این مخزن ممکن است تحت مجوزهای خود باشند.
+
+<br/>
